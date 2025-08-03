@@ -1,0 +1,25 @@
+# Dependências principais da API Flask com PostgreSQL
+# Para instalar: pip install -r requirements.txt
+
+# Framework Web
+Flask==3.1.1
+
+# Banco de Dados PostgreSQL
+psycopg2-binary==2.9.10
+
+# Variáveis de Ambiente
+python-dotenv==1.1.1
+
+# Dependências do Flask (instaladas automaticamente)
+blinker==1.9.0
+click==8.2.2
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+Werkzeug==3.1.3
+
+# Dependências de Sistema (Windows)
+colorama==0.4.6
+
+# Dependência legacy (pode ser removida se não necessária)
+load-dotenv==0.1.0
